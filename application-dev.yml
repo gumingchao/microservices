@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-client-git
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+            https://github.com/gumingchao/microservices.git
+
+server:
+  port: 8080
