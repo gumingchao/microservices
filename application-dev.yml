@@ -7,8 +7,11 @@ spring:
     config:
       server:
         git:
-          uri:
-            https://github.com/gumingchao/microservices.git
+          uri: https://github.com/gumingchao/microservices.git
+    sample:
+      msg: from git cloud!
+     
 
 server:
   port: 8080
+  
