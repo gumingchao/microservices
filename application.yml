@@ -1,8 +1,8 @@
 spring:
   application:
-    name: config-client
+    name: config-client-git
   profiles:
-    active: dev
+    active: test
   cloud:
     config:
       server:
@@ -11,5 +11,5 @@ spring:
             https://github.com/gumingchao/microservices.git
 
 server:
-  port: 8081
+  port: 8080
 
