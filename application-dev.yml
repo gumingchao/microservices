@@ -13,4 +13,4 @@ server:
 
 cloud:
   sample:
-    msg: from git cloud, and now i changed this!
+    msg: from git cloud, and now i changed this 2 times!
