@@ -10,7 +10,6 @@ spring:
           uri: https://github.com/gumingchao/microservices.git
 server:
   port: 8080
-
 cloud:
   sample:
     msg: from git cloud, and now i changed this 2 times!
