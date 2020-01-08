@@ -13,3 +13,7 @@ server:
 cloud:
   sample:
     msg: from git cloud, and now i changed this 2 times!
+zuul:
+  filter:
+    root: filter
+  interval: 5
